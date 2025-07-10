@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    margin-top: 36px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.txt, .sum{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.time{
+
+}

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background: #F3F4F6;
+    width: 100%;
+    padding: 24px 48px;
+    border-radius: 24px;
+}
+
+.title{
+    font-weight: 500;
+    width: 200px;
+    margin: 8px 0;
+
+}
+
+.informationColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 284px;
+}
+.informationBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt1, .txt2{
+    flex: 1;
+}
+
+.txt1{
+    font-size: 12px;
+    font-weight: 400;
+    color: #637083;
+}
+
+.txt2{
+    font-weight: 400;
+}

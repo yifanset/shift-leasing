@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px;
+    gap: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E3E5E5;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.txt1{
+    width: 504px;
+    color: #637083;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.txt2{
+    width: 504px;
+    font-weight: 400;
+}
+
+.informationBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.ellipse{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    content: '';
+    background: #FDD442;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+

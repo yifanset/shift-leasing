@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    height: 114px;
+    background: #F3F4F6;
+    padding: 16px 24px 24px 24px;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 16px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.txt{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn{
+    background: #344051;
+    padding: 16px 44.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    height: 56px;
+    gap: 8px;
+}
+.btnTxt{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+}

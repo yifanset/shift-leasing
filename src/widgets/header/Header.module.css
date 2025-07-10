@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    position: fixed;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 240px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82px;
+    align-items: center;
+    z-index: 100;
+    border: 1px solid #CED2DA;
+}
+
+.logo, nav, .link, .logout, .rightBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    gap: 4px;
+}
+
+nav{
+    gap: 32px;
+    margin-left: 69px;
+}
+
+.link{
+    gap: 12px;
+}
+
+.logout {
+    gap: 11.4px;
+}
+
+.rightBlock{
+    margin-left: auto;
+    gap: 32px;
+}
+
+.txtLogo{
+    font-size: 13.43px;
+    color: #DB0019;
+    font-family: 'Fira Sans' , sans-serif;
+    font-weight: 600;
+}
+
+.txt{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}

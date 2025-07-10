@@ -1,0 +1,69 @@
+.container{
+    margin: 110px 240px;
+    width: 368px;
+}
+
+.input{
+    width: 100%;
+    margin: 6px 0 24px 0;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.txt{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.btn1{
+    background: transparent;
+    border: 1px solid #CED2DA;
+    border-radius: 16px;
+    color: #344051;
+    padding: 16px 61px;
+    font-weight: 600;
+    display: block;
+}
+
+.btn2{
+    background: #DB0019;
+    border-radius: 16px;
+    padding: 16px 34.5px;
+    font-weight: 600;
+    display: block;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.datePickerInput {
+    width: 367.99px;
+    height: 48px;
+    border: 1px solid #CED2DA;
+    background: #FFFFFF;
+    color: #637083;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 6px 0 24px 0;
+}

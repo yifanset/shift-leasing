@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.name,.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description, .sumPrice{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.name {
+    margin-top: 24px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description{
+    margin-top: 8px;
+}
+
+.priceBlock{
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 24px;
+    background: #C10016;
+    border-radius: 16px;
+    padding: 16px 14.5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #FFFFFF;
+    display: block;
+}

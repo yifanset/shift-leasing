@@ -1,0 +1,43 @@
+.page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    margin-top: 110px;
+    flex-direction: column;
+    width: 960px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 66px 0;
+}
+
+.btn1{
+    background: transparent;
+    border: 1px solid #CED2DA;
+    border-radius: 16px;
+    color: #344051;
+    padding: 16px 139px;
+    font-weight: 600;
+}
+
+.btn2{
+    background: #DB0019;
+    border-radius: 16px;
+    padding: 16px 102px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
+
